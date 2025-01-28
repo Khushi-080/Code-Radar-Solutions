@@ -1,9 +1,6 @@
-#include <stdio.h>
-
-int main() {
-    int x;
+#include<stdio.h>
+int main(){
     scanf("%d",&x);
-    printf("You entered: %d",x);
-
+    printf("You entered:",x);
     return 0;
 }
