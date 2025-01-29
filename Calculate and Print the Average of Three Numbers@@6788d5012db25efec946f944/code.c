@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main(){
     int x,y,z;
-    scanf("%d");
+    scanf("%d",&x);
     printf("%d");
     
-    scanf("%d");
+    scanf("%d",&y);
     printf("%d");
     
-    scanf("%d");
+    scanf("%d",&z);
     printf("%d");
     float av;
     av = (x+y+z)/3.0;
