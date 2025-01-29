@@ -2,16 +2,17 @@
 int main(){
     int x;
     scanf("%d",&x);
-    printf("%d");
+    printf("%d",x);
     int y;
     scanf("%d",&y);
-    printf("%d");
+    printf("%d",y);
     int z;
     scanf("%d"&z);
-    printf("%d");
+    printf("%d",z);
     int av;
     av = (x+y+z)/3;
-    printf("Average: %d",av);
+   
     scanf("%d",&av);
+    printf("Average: %d",&av)
     return 0;
 }
