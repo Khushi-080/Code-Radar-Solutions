@@ -2,7 +2,7 @@
 int main(){
     int x;
     printf("%d",x);
-    scaf("%d",&x);
+    scanf("%d",&x);
     float pi = 3.14;
     float area;
     area = pi*x*x;
