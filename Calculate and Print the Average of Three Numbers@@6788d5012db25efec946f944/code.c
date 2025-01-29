@@ -9,10 +9,10 @@ int main(){
     int z;
     scanf("%d"&z);
     printf("%d",z);
-    int av;
+    float av;
     av = (x+y+z)/3;
    
-    scanf("%d",&av);
-    printf("Average: %d",&av);
+    
+    printf("Average: %.2f",av);
     return 0;
 }
