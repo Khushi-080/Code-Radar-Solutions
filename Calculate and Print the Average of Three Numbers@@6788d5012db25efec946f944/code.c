@@ -7,7 +7,7 @@ int main(){
     scanf("%d",&y);
     printf("%d",y);
     
-    scanf("%d"&z);
+    scanf("%d",&z);
     printf("%d",z);
     float av;
     av = (x+y+z)/3.0;
