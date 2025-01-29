@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include<stdio.h>
 int main(){
     int x;
-    scanf("%d",&x);
+    printf("%d",x);
+    scaf("%d",&x);
     float pi = 3.14;
-    float area = pi*x*x;
-    printf("Area: %.2f",area);
-    
+    float area;
+    area = pi*x*x;
+    printf("Area: .2f%",&area);
     return 0;
+
 }
