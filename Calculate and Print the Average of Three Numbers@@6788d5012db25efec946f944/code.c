@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main(){
-    int x;
+    int x,y,z;
     scanf("%d",&x);
     printf("%d",x);
-    int y;
+    
     scanf("%d",&y);
     printf("%d",y);
-    int z;
+    
     scanf("%d"&z);
     printf("%d",z);
     float av;
