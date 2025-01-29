@@ -10,7 +10,7 @@ int main(){
     scanf("%d"&z);
     printf("%d",z);
     float av;
-    av = (x+y+z)/3;
+    av = (x+y+z)/3.0;
    
     
     printf("Average: %.2f",av);
