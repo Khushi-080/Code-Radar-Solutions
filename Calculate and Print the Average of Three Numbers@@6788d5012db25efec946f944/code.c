@@ -13,6 +13,6 @@ int main(){
     av = (x+y+z)/3;
    
     scanf("%d",&av);
-    printf("Average: %d",&av)
+    printf("Average: %d",&av);
     return 0;
 }
