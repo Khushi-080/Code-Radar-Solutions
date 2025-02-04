@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main(){
-    int x;
+    float x;
     
-    scanf("%d",&x);
-    int area;
+    scanf("%f",&x);
+    float area;
     area = 3.14*x*x;
-    scanf("%d",&area);
-    printf("Area: %d",area);
+    scanf("%f",&area);
+    printf("Area: %f",area);
     return 0;
 
 }
