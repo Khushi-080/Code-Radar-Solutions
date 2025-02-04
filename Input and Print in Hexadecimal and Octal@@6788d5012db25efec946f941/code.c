@@ -3,8 +3,8 @@
 
 int main() {
     char x;
-    scanf("%s",&x);
-    printf("Hexadecimal: %s\n",x);
+    scanf("%c",&x);
+    printf("Hexadecimal: %c\n",x);
     int y;
     scanf("%d",&y);
     printf("Octal: %d",y);
