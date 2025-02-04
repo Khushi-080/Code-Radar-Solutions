@@ -4,7 +4,7 @@
 int main() {
     char x;
     scanf("%c",&x);
-    printf("Hexadecimal: %c\n");
+    printf("Hexadecimal: %c\n",x);
     int y;
     scanf("%d",&y);
     printf("Octal: %d",y);
