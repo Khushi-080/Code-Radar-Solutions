@@ -3,10 +3,10 @@ int main(){
     int x;
     
     scanf("%d",&x);
-    float pi = 3.14;
-    float area;
-    area = pi*x*x;
-    printf("Area: %.2f",&area);
+    int area;
+    area = 3.14*x*x;
+    scanf("%d",&area);
+    printf("Area: %d",area);
     return 0;
 
 }
