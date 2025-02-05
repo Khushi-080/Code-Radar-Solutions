@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char welcome[2222222];
-    scanf("%s",&welcome);
+    double f;
+    scanf("%lf",&f);
 
-    printf("You entered: %.4s", welcome);
+    printf("You entered: %lf", welcome);
     return 0;
 }
