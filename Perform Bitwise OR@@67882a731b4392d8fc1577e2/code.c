@@ -4,6 +4,6 @@ int main() {
     int x,y,result;
     scanf("%d %d",&x,&y);
     result = x|y;
-    scanf("%d",&result);
+    printf("%d",result);
     return 0;
 }
