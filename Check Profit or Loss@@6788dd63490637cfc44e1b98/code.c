@@ -1,12 +1,12 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if(x<y || y>x){
-        printf("Profit");
+    int cp,sp;
+    scanf("%d %d",&cp,&sp);
+    if(cp>sp){
+        printf("loss");
     }
-    else if(y=x){
+    else if(cp=sp){
         printf("No Profit No Loss");
     }
     else{
