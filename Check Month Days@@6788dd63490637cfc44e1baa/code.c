@@ -8,7 +8,7 @@ int main()
         printf("31");
     }
     else if(x==2){
-        printf("28")
+        printf("28");
     }
     else if(x==3){
         printf("31");
