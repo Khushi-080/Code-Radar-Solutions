@@ -37,7 +37,7 @@ int main()
     else if(x==11){
         printf("30");
     }
-    else if(x==12){
+    else {
         printf("31");
     }
 }
