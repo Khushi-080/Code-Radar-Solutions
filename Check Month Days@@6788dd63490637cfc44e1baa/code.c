@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d"&a);
+    int x;
+    scanf("%d"&x);
     if(x==1){
         printf("31");
     }
