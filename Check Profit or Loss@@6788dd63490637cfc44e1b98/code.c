@@ -5,13 +5,13 @@ int main(){
     
     scanf("%d %d",&cp,&sp);
     if(cp<sp){
-        printf("profit");
+        printf("Loss");
     }
     else if(cp=sp){
         printf("No Profit No Loss");
     }
     else{
-        printf("Loss");
+        printf("Profit");
     }
     return 0;
 }
