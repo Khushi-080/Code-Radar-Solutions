@@ -5,4 +5,7 @@ int main(){
     scanf("%d",&x);
     for(int i =1;i<=x;i++){
     printf("%d",x);}
+    for(int j = 1;j<=x;j++){
+        printf("%d",y);
+    }
 }
