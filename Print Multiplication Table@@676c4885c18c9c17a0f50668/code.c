@@ -4,6 +4,6 @@ int main(){
     int x;
     scanf("%d",&x);
     int a=1;
-    printf("x""X""%d""=""%d",a,x*a);
+    printf("%d""X""%d""=""%d"x,a,x*a);
     a++;
 }
