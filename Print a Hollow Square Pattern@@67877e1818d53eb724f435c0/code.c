@@ -8,7 +8,9 @@ int main(){
                 if(i == 1 || i == x || k ==1 || k == x){
                     printf("*");
                 }
-        }
+                else{
+                    printf(" ");
+                }        }
         printf("\n");
     }
 }
