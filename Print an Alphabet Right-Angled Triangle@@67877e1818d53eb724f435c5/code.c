@@ -8,8 +8,10 @@ int main(){
         int a=1;
         for(int j=1;j<=i;j++){
             char ch=(a+64);
+            printf("%c",&ch);
+            a++;
         }
-        printf("%c",&ch);
+        printf("\n");
     }
-    printf("\n");
+    return 0;
 }
