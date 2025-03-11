@@ -3,13 +3,14 @@
 int main(){
     int x;
     scanf("%d",&x);
-    int d,a;
+    
     for(int i=1;i<=x;i++){
+        int a=1;
         for(int j=1;j<=i;j++){
-            char ch=a;
-            char d=char(a+64);
+            
+            char ch=char(a+64);
         }
-        printf("%c",d);
+        printf("%c",&ch);
     }
     printf("\n");
 }
