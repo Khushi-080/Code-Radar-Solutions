@@ -9,7 +9,7 @@ int main(){
     }
     for(int i=n;i<0;i--){
         for(int i=n;i>=0;i--){
-        arr1[n-i]=arr[i-1];}
+            arr1[n-i]=arr[i-1];}
         
     }
     for(int i=0;i<n;i++){
