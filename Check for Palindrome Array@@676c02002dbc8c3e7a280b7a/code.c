@@ -10,6 +10,7 @@
      for(int i=n;i>=0;i--){
          arr1[n-i]=arr[i-1];
      }
+     }
      for(int i=0;i<n;i++){
          if(arr[i]==arr1[i]){
              continue;
@@ -21,3 +22,5 @@
      }
      printf("YES");
      return 0;
+     }
+    
